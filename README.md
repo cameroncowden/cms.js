@@ -55,16 +55,16 @@ To create new posts, add files to the posts folder
 
 ## How it works
 
-**Github Mode**
-
-In Github mode, CMS.js uses the Github API to get the content of your gh-pages repo
-and serve them as a full website.
-
-**Server Mode**
-
-In Server mode, CMS.js takes advantage of the Server's Directory Indexing feature. By allowing indexes,
-CMS.js sends an AJAX call to your specified folders and looks for Markdown files.
-After they are found, it takes care of everything else and delivers a full website.
+>**Github Mode**
+>
+>In Github mode, CMS.js uses the Github API to get the content of your gh-pages repo
+>and serve them as a full website.
+>
+>**Server Mode**
+>
+>In Server mode, CMS.js takes advantage of the Server's Directory Indexing feature. By allowing indexes,
+>CMS.js sends an AJAX call to your specified folders and looks for Markdown files.
+>After they are found, it takes care of everything else and delivers a full website.
 
 
 ## Migration from Jekyll
