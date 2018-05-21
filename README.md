@@ -16,6 +16,7 @@
 ## Demo
 
 Check out a working [demo here](dat://0d9e0bafd274f8ddee3327d1c2d6c196095d911ba64b73e0aed4d4e6087116e6)
+
 *** Requires Beaker Browser or other dat-compatible modern browser ***
 
 ## Quick Start
@@ -45,8 +46,8 @@ To create new posts, add files to the posts folder
 
 **Install**
 
-1. Visit the [demo site](dat://0d9e0bafd274f8ddee3327d1c2d6c196095d911ba64b73e0aed4d4e6087116e6/)
-2. Configure `js/config.js` to your liking
+1. Visit the [demo site](dat://0d9e0bafd274f8ddee3327d1c2d6c196095d911ba64b73e0aed4d4e6087116e6/), and fork it
+2. Configure `js/config.js` to your liking, and update the posts and page contents with your info
 3. Publish your changes within Beaker
 4. ??
 5. View your site!
