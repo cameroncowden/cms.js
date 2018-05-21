@@ -15,7 +15,7 @@
 
 ## Demo
 
-Check out a working [demo here](dat://0d9e0bafd274f8ddee3327d1c2d6c196095d911ba64b73e0aed4d4e6087116e6)
+Check out a working demo here: dat://0d9e0bafd274f8ddee3327d1c2d6c196095d911ba64b73e0aed4d4e6087116e6
 
 *** Requires Beaker Browser or other dat-compatible modern browser ***
 
