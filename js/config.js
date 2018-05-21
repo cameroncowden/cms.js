@@ -3,10 +3,10 @@ $(function() {
   CMS.init({
 
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
-    siteName: 'My Site',
+    siteName: 'CMS-JS',
 
     // Tagline for your site
-    siteTagline: 'Your site tagline',
+    siteTagline: 'CMS-JS p2p implementation test',
 
     // Email address
     siteEmail: 'your_email@example.com',
@@ -49,7 +49,7 @@ $(function() {
 
     // Mode 'Github' for Github Pages, 'Server' for Self Hosted. Defaults
     // to Github
-    mode: 'Github',
+    mode: 'Server',
 
      // If Github mode is set, your Github username and repo name.
     githubUserSettings: {
