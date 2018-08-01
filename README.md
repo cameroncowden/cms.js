@@ -21,22 +21,7 @@ Check out a working demo here: dat://0d9e0bafd274f8ddee3327d1c2d6c196095d911ba64
 
 ## Quick Start
 
->CMS.js currently supports two website modes, Github and Server.
->
->**Github Mode**
->
->This is the default mode for CMS.js. Host your website on Github using
->Github Pages, similar to Jekyll.
->
->**Server Mode**
->
->Use server mode if you choose to self host your content. Apache and NGINX servers are supported.
->If using server mode, make sure the server's directory indexing feature is enabled.
->
->* Apache - Make sure `htaccess` is enabled OR `Options Indexes` is set for your directory.
->* NGINX - Make sure `autoindex on` is set for your directory
->
->More info on server setup is available on the [wiki](https://github.com/cdmedia/cms.js/wiki/Server-Support-&-Setup)
+CMS.js uses a p2p network to share sites with other members on the network, similar to how torrents can be seeded by whoever shared it and then by other peers as more people access it.
 
 No more need for external hosting, do it yourself with [Beaker!](https://beakerbrowser.com/)
 
@@ -55,16 +40,9 @@ To create new posts, add files to the posts folder
 
 ## How it works
 
->**Github Mode**
->
->In Github mode, CMS.js uses the Github API to get the content of your gh-pages repo
->and serve them as a full website.
->
->**Server Mode**
->
->In Server mode, CMS.js takes advantage of the Server's Directory Indexing feature. By allowing indexes,
->CMS.js sends an AJAX call to your specified folders and looks for Markdown files.
->After they are found, it takes care of everything else and delivers a full website.
+CMS.js looks at the pages and posts folders in the root, reads in all the files, and then generates the site on the fly. 
+
+
 
 
 ## Migration from Jekyll
